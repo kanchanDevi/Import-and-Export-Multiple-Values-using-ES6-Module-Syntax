@@ -3,4 +3,4 @@ let bulb = { watts: 10, type: "LED" };
 function multiplyByFour(num) {
   return num * 4;
 }
-export default { myArray, bulb, multiplyByFour };
+export { myArray, bulb, multiplyByFour };
